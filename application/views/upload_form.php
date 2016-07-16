@@ -17,7 +17,7 @@
                 
                 $.post(uri, null, function (resp) {
                     for (var i = 0; i < resp.length; i++) {
-                        $('#img').append('<img src="' + url + resp[i].ruta + '"  height="75" width="75">');
+                        $('#img').append('<img src="' + url + resp[i].ruta + '"  height="100" width="100">');
                     }
                 }, "json");
                 return false;
