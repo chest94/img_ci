@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'img',
+	'hostname' => '74.124.194.173',
+	'username' => 'gtalento_img',
+	'password' => '123ABC456',
+	'database' => 'gtalento_img',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
